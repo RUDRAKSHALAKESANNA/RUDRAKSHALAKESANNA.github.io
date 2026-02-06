@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0f172a;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #cbd5e1;
+    }
+
+    nav {
+      background: #020617;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #0f172a;
+    }
+
+    .about p {
+      font-size: 1.05rem;
+    }
+
+    .skills ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      list-style: none;
+    }
+
+    .skills li {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .projects .card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .projects h3 {
+      margin-bottom: 10px;
+      color: #020617;
+    }
+
+    .contact p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #020617;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rudrakshala Kesanna</h1>
+    <p> Data Analyst | Visualization Expert</p>
+    <p style="margin-top:12px; font-size:0.95rem;">
+        <a href="https://github.com/RUDRAKSHALAKESANNA" target="_blank" style="color:#38bdf8; margin-right:15px; text-decoration:none;">GitHub</a>
+        <a href="https://www.linkedin.com/in/rudrakshala-kesanna-912795238/" target="_blank" style="color:#38bdf8; margin-right:15px; text-decoration:none;">LinkedIn</a>
+        <a href="https://www.hackerrank.com/profile/kesava7600" target="_blank" style="color:#38bdf8; text-decoration:none;">HackerRank</a>
+</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a detail-oriented <strong>Data Analyst</strong> with <strong>2.5 years of professional experience</strong>,
+    specializing in <strong>Python, Advanced SQL, Excel, and Power BI</strong> to deliver meaningful insights
+    and data-driven solutions.
+  </p>
+
+  <p>
+    I have hands-on experience working with <strong>large datasets</strong>, building
+    <strong>interactive dashboards</strong>, and <strong>automating analytical workflows</strong>
+    to support effective business decision-making.
+  </p>
+
+  <p>
+    I also have practical exposure to <strong>Machine Learning and Deep Learning</strong>, including
+    data preprocessing, feature engineering, model building, and evaluation using Python.
+  </p>
+
+  <p>
+    Alongside analytics, I have experience in <strong>Python backend development using Django</strong>,
+    where I have worked on <strong>REST APIs, backend logic integration, and data handling</strong>.
+  </p>
+
+  <p>
+    Additionally, I am skilled in <strong>API testing using Postman</strong>, ensuring reliable and
+    well-structured API workflows. My strong <strong>Advanced SQL</strong> background includes complex joins,
+    CTEs, window functions, query optimization, and performance tuning.
+  </p>
+
+  <p>
+    With a solid foundation in <strong>data analysis, backend development, and intelligent systems</strong>,
+    I am passionate about solving real-world problems, continuously upskilling, and contributing to
+    <strong>scalable, data-driven products</strong>.
+  </p>
+</section>
+
+
+  <section id="skills" class="skills">
+<h2>Skills</h2>
+
+<div class="skills-grid">
+<div class="skills-card">
+<h3>Data Analyst</h3>
+<ul>
+<li>Python (Pandas, NumPy)</li>
+<li>Advanced SQL (CTEs, Window Functions)</li>
+<li>Excel (Advanced Formulas, Pivot Tables)</li>
+<li>Power BI (DAX, Dashboards)</li>
+<li>Data Cleaning & Validation</li>
+<li>Business Insights & Reporting</li>
+</ul>
+</div>
+
+
+<div class="skills-card">
+<h3>Data Engineering</h3>
+<ul>
+<li>Python for Data Pipelines</li>
+<li>Apache Airflow</li>
+<li>Mage AI</li>
+<li>ETL Pipeline Development</li>
+<li>SQL Server</li>
+<li>PostgreSQL</li>
+</ul>
+</div>
+
+
+<div class="skills-card">
+<h3>Data Science</h3>
+<ul>
+<li>Machine Learning Algorithms</li>
+<li>Feature Engineering</li>
+<li>Exploratory Data Analysis (EDA)</li>
+<li>Model Training & Evaluation</li>
+</ul>
+</div>
+</div>
+</section>
+
+    <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+        <div class="card">
+        <h3>Logistics Operations & Performance Analytics Dashboard</h3>
+        <p>
+        Developed an interactive Power BI dashboard to analyze and monitor end-to-end logistics operations.
+        The dashboard provides visibility into shipment performance, delivery timelines, transportation costs,
+        and operational efficiency, enabling stakeholders to identify bottlenecks and optimize logistics performance.
+        </p>
+        <p><strong>Skills & Tools:</strong> Power BI, DAX, SQL, Data Modeling, KPI Analysis, Supply Chain Analytics</p>
+        </div>
+
+
+        <div class="card">
+        <h3>Revenue, Expense & Profitability Analysis Dashboard</h3>
+        <p>
+        Designed and implemented a Power BI dashboard to analyze revenue, expenses, and profitability across
+        business units and time periods. The dashboard delivers actionable financial insights through trend
+        analysis, variance reporting, and KPI tracking to support strategic decision-making.
+        </p>
+        <p><strong>Skills & Tools:</strong> Power BI, DAX, SQL, Financial Analysis, Trend & Variance Analysis</p>
+        </div>
+        <div class="card">
+        <h3>Python-Based Data Analysis & Automation</h3>
+        <p>
+        Developed a Python-based data analysis and automation solution to process large datasets, perform
+        exploratory data analysis, and automate repetitive reporting workflows, improving efficiency and
+        data accuracy.
+        </p>
+        <p><strong>Skills & Tools:</strong> Python, Pandas, NumPy, Data Cleaning, Data Automation</p>
+    
+        </div>
+
+
+        <!-- Machine Learning Project -->
+        <div class="card">
+        <h3>Machine Learning Predictive Analytics Project</h3>
+        <p>
+        Implemented an end-to-end machine learning pipeline including data preprocessing, feature engineering,
+        model training, and evaluation to build predictive models for real-world analytical use cases.
+        </p>
+        <p><strong>Skills & Tools:</strong> Python, Machine Learning, Scikit-learn, Feature Engineering, Model Evaluation, Data Preprocessing</p>
+        </div>
+  </section>
+    <section id="project-links" class="projects">
+    <h2>Project Links</h2>
+
+
+    <div class="card">
+    <h3>Machine Learning Recommendation Engine</h3>
+    <p>Developed a machine learning–based recommendation system to suggest relevant items using user behavior and interaction data.</p>
+    <p>
+    <a href="https://github.com/RUDRAKSHALAKESANNA/Machine_Learning" target="_blank">View GitHub Repository</a>
+    </p>
+    </div>
+    <div class="card">
+   <h3>Learning Large Language Models (LLMs) – Custom Model Implementation</h3>
+   <p>Explored Large Language Models in depth by building and experimenting with a custom LLM, focusing on architecture understanding, training flow, and inference.</p>
+    <p>
+   <a href="https://colab.research.google.com/drive/1GkUi7rjDvhwyuWyvOLtXgH5ZCIM2rTnL?usp=sharing" target="_blank">View Google Colab Notebook</a>
+    </p>
+    </div>
+    <div class="card">
+  <h3>RVNL Stock Price Prediction</h3>
+  <p>
+    Built a stock price prediction model for RVNL using machine learning
+    techniques on historical market data, applying time-series analysis
+    and ML algorithms to forecast future price movements and trends.
+  </p>
+  <p>
+    <a href="https://colab.research.google.com/drive/1DeRF3tOqs0v8LpFhJmhX0mBp3YJSawmY?usp=sharing" target="_blank">
+      View Google Colab Notebook
+    </a>
+  </p>
+</div>
+
+    
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: rkesva025@gmail.com</p>
+    <p>LinkedIn: https://www.linkedin.com/in/rudrakshala-kesanna-912795238/</p>
+    <p>GitHub: https://github.com/RUDRAKSHALAKESANNA</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
